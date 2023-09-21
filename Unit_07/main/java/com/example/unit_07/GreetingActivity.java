@@ -1,4 +1,4 @@
-package com.example.draft_unit07;
+package com.example.unit_07;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.draft_unit07.R;
 
 public class GreetingActivity extends AppCompatActivity {
     Button buttonBack;

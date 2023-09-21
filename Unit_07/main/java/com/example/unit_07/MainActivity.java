@@ -1,4 +1,4 @@
-package com.example.draft_unit07;
+package com.example.unit_07;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.draft_unit07.R;
 
 public class MainActivity extends AppCompatActivity {
     EditText input;
@@ -52,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("message", message);
 
         // Khoi dong Activity ma khong can feedback
-         this.startActivity(intent);
+//         this.startActivity(intent);
 
         // Khoi dong Activity va lay feedback
-//        this.startActivityForResult(intent, MY_REQUEST_CODE);
+        this.startActivityForResult(intent, MY_REQUEST_CODE);
     }
 
     public void toImplicit() {
