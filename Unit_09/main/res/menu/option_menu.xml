@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/internal_item"
+        android:title="Internal Storage" />
+    <item
+        android:id="@+id/shared_pref_item"
+        android:title="Shared Preferences" />
+    <item
+        android:id="@+id/file_system_item"
+        android:title="Android File System" />
+    <item
+        android:id="@+id/external_item"
+        android:title="External Storage" />
+    <item
+        android:id="@+id/sqlite_item"
+        android:title="SQLite" />
+    <item android:id="@+id/item6"
+        android:title="Item" />
+</menu>

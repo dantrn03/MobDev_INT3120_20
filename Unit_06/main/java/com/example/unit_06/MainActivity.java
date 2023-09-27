@@ -1,4 +1,4 @@
-package com.example.draft_unit06;
+package com.example.unit_06;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.PopupMenu;
 import android.widget.SearchView;
 import android.widget.Toast;
+
+import com.example.draft_unit06.R;
 
 public class MainActivity extends AppCompatActivity {
     Button button1;

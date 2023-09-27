@@ -1,4 +1,4 @@
-package com.example.draft_unit04;
+package com.example.unit_04;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,12 +8,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Order extends AppCompatActivity {
+import com.example.draft_unit04.R;
+
+public class Donation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_order);
+        setContentView(R.layout.activity_donation);
     }
 
     @Override
@@ -29,8 +31,8 @@ public class Order extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             this.startActivity(intent);
         }
-        if (id == R.id.item2) {
-            Intent intent = new Intent(this, Donation.class);
+        if (id == R.id.item3) {
+            Intent intent = new Intent(this, Order.class);
             this.startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
