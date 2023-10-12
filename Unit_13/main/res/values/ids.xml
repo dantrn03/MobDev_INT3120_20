@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_labellat" type="id" />
+    <item name="tv_lat" type="id" />
+    <item name="tv_labellon" type="id" />
+</resources>
